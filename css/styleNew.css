@@ -1,0 +1,60 @@
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  /*hw02*/
+}
+
+/*-------------------*/
+
+.footer {
+  background: #2e2f42;
+  padding: 96px 16px;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;
+  justify-content: center;*/
+}
+
+.logo-text {
+  text-align: center;
+}
+
+.footer .logo {
+  margin-bottom: 16px;
+}
+
+.delete {}
+
+.footer-text {}
+
+.footer-icons {}
+
+.footer-title {}
+
+.footer-list {}
+
+.footer-item {}
+
+.footer-icons-link {}
+
+.footer-item-icon {}
+
+.footer-subscribe {}
+
+.footer-form {}
+
+.footer-label-email {}
+
+.footer-input-email {}
+
+.footer-btn-submit {}
+
+.footer-btn-submit-icon {}

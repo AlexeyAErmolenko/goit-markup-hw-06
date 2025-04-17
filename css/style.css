@@ -134,7 +134,6 @@ img {
 .header-flex {
   display: flex;
   /*hw03*/
-
   padding: 16px 15px;
 
   /*padding-top: 24px;
@@ -149,7 +148,7 @@ img {
 }
 
 .header-nav .logo {
-  /*margin-right: 76px;*/
+  margin-right: 120px;
   /*padding-top: 8px;
   padding-bottom: 16px;*/
 }
@@ -196,7 +195,7 @@ img {
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: -3px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
@@ -386,7 +385,7 @@ img {
   /*hw02*/
   /*padding: 188px 0;*/
   /*hw03*/
-  /*max-width: 1440px;*/
+  max-width: 1440px;
   margin: 0 auto;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-320.jpg);
   background-repeat: no-repeat;
@@ -396,7 +395,7 @@ img {
   padding: 72px 52px;
   /*padding-top: 72px;
   padding-bottom: 72px;
-   padding-left: 52px;
+  padding-left: 52px;
   padding-right: 52px;*/
 }
 
@@ -416,7 +415,7 @@ img {
 
 .hero-title {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 72px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -425,7 +424,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   max-width: 216px;
-  padding-bottom: 72px;
+  /*margin-bottom: 72px;*/
 }
 
 .hero-btn {
@@ -521,7 +520,7 @@ img {
 }
 
 .team .body-text {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-list {
@@ -659,7 +658,7 @@ img {
 }
 
 .portfolio-descr {
-  padding: 32px 0px 32px 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   /*hw03-06*/
@@ -758,9 +757,9 @@ img {
   flex-direction: column;
 }
 
-.footer-label-email {
+/*.footer-label-email {
   margin: 0 auto;
-}
+}*/
 
 .footer-input-email {
   border: 1px solid #fff;
@@ -1034,19 +1033,19 @@ img {
   }
 
   .header-flex {
-    padding: 0 16px;
+    padding: 24px 16px;
   }
 
-  .header-nav {
+  /*.header-nav {
     gap: 120px;
-  }
+  }*/
 
   .header-address-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    /*margin-top: 16px;
+    margin-bottom: 16px;*/
   }
 
   .hero {
@@ -1066,7 +1065,7 @@ img {
     font-size: 56px;
     line-height: 1.07;
     max-width: 496px;
-    padding-bottom: 36px;
+    margin-bottom: 36px;
   }
 
 
@@ -1138,8 +1137,13 @@ img {
     padding-left: 15px;
   }
 
-  .header-nav {
-    gap: 76px;
+  .header-address-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .header-nav .logo {
+    margin-right: 76px;
   }
 
   .hero {
@@ -1156,7 +1160,7 @@ img {
   }
 
   .hero-title {
-    padding-bottom: 48px;
+    margin-bottom: 48px;
   }
 
 
@@ -1234,9 +1238,9 @@ img {
     flex-wrap: nowrap;
   }
 
-  .footer-subscribe {
+  /*.footer-subscribe {
     margin-right: 3px;
-  }
+  }*/
 }
 
 

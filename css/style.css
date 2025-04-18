@@ -195,7 +195,7 @@ img {
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: -3px;
+  bottom: -8px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
@@ -677,7 +677,8 @@ img {
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
-  gap: 72px 0;
+  /*gap: 72px 0;*/
+  gap: 16px 0;
   flex-direction: column;
 }
 
@@ -708,7 +709,7 @@ img {
 
 .footer-icons {
   fill: #f4f4fd;
-  margin: 0 auto;
+  margin: 56px auto;
 }
 
 .footer-title {
@@ -780,6 +781,10 @@ img {
   font-size: 12px;
   letter-spacing: 0.04em;
   color: #fff;
+}
+
+.footer-btn {
+  margin: 0 auto;
 }
 
 .footer-btn-submit {
@@ -1023,6 +1028,16 @@ img {
     width: 768px;
   }
 
+  .header-flex {
+    padding: 16px;
+  }
+
+  .header-address .link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+
   .mob-menu,
   .menu-open-btn {
     display: none;
@@ -1032,9 +1047,9 @@ img {
     display: flex;
   }
 
-  .header-flex {
+  /*.header-flex {
     padding: 24px 16px;
-  }
+  }*/
 
   /*.header-nav {
     gap: 120px;
@@ -1068,6 +1083,10 @@ img {
     margin-bottom: 36px;
   }
 
+
+  .feature .subtitle {
+    text-align: start;
+  }
 
   .feature-list {
     gap: 72px 24px;
@@ -1107,9 +1126,15 @@ img {
     margin: 0 auto;
   }
 
+  .footer-text {
+    width: 264px;
+  }
+
   .footer-flex {
     gap: 72px 24px;
     flex-direction: row;
+    max-width: 768px;
+    margin: 0 auto;
   }
 
   .footer-form {
@@ -1119,6 +1144,25 @@ img {
 
   .footer-input-email {
     width: 264px;
+  }
+
+  .footer-icons {
+    margin: 0 auto;
+  }
+
+  .footer-subscribe {
+    width: 264px;
+    margin: 0 auto;
+  }
+
+  .footer-btn {
+    position: relative;
+    width: 208px;
+  }
+
+  .footer-btn-submit {
+    position: absolute;
+    margin: 21px 0 0 0;
   }
 
   .modal {
@@ -1133,8 +1177,13 @@ img {
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
-    padding-right: 15px;
-    padding-left: 15px;
+    /*padding-right: 15px;
+    padding-left: 15px;*/
+    padding: 24px 15px;
+  }
+
+  .header-nav .active::after {
+    bottom: -3px;
   }
 
   .header-address-list {
@@ -1236,6 +1285,11 @@ img {
 
   .footer-form {
     flex-wrap: nowrap;
+  }
+
+
+  .footer-btn-submit {
+    margin: 21px 0 0 -56px;
   }
 
   /*.footer-subscribe {
